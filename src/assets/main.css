@@ -1,0 +1,86 @@
+/* RESET */
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* BODY */
+body{
+  background: #f4f6f9;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  min-height:100vh;
+}
+
+/* CONTAINER PRINCIPAL */
+#app{
+  background:white;
+  padding:40px;
+  border-radius:12px;
+  width:420px;
+  box-shadow:0 10px 25px rgba(0,0,0,0.1);
+}
+
+/* TITULOS */
+h1{
+  text-align:center;
+  color:#003366;
+  margin-bottom:10px;
+}
+
+h2{
+  text-align:center;
+  margin-bottom:25px;
+  color:#555;
+}
+
+/* INPUTS */
+input, select{
+  width:100%;
+  padding:12px;
+  margin-bottom:15px;
+  border-radius:8px;
+  border:1px solid #ccc;
+  font-size:16px;
+  transition:0.3s;
+}
+
+/* FOCUS */
+input:focus,
+select:focus{
+  outline:none;
+  border-color:#003366;
+  box-shadow:0 0 5px rgba(0,51,102,0.3);
+}
+
+/* BOTÃO */
+button{
+  width:100%;
+  padding:14px;
+  border:none;
+  border-radius:8px;
+  background:#003366;
+  color:white;
+  font-size:16px;
+  font-weight:bold;
+  cursor:pointer;
+  transition:0.3s;
+}
+
+/* HOVER */
+button:hover{
+  background:#0055aa;
+  transform:scale(1.02);
+}
+
+/* ACTIVE */
+button:active{
+  transform:scale(0.98);
+}
+
+.imagem{
+    margin-left: 70px;
+}
