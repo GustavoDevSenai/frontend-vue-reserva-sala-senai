@@ -2,6 +2,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 
 import CadastrarProfessor from '@/views/CadastrarProfessor.vue'
 import CadastroSala from '../views/CadastroSala.vue'
+import ReservarSala from '@/views/ReservarSala.vue'
 
 const routes = [
   {
@@ -11,7 +12,12 @@ const routes = [
   {
     path: '/salas',
     component: CadastroSala
+  },
+  {
+    path:'/reservas',
+    component:ReservarSala
   }
+  
 ]
 
 const router = createRouter({

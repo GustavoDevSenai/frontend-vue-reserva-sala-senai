@@ -22,7 +22,7 @@ async function cadastrarSala() {
 </script>
 
 <template>
-    <img src="../assets//senai.png" width="200" alt="">
+    <img src="../assets//senai.png" width="200" class="imagem" alt="">
     <h2>Cadastrar Sala</h2>
     
     <input v-model="nome" placeholder="Ex: Sala 05">
@@ -31,3 +31,7 @@ async function cadastrarSala() {
         Cadastrar Sala
     </button>
 </template>
+
+<style>
+
+</style>

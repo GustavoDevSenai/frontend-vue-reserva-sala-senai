@@ -5,6 +5,8 @@
     <nav class="menu">
       <router-link to="/">Professor</router-link>
       <router-link to="/salas">Salas</router-link>
+      <router-link to="/reservas">Reservar Sala</router-link>
+      
     </nav>
 
     <main class="conteudo">
